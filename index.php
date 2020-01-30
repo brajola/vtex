@@ -1,8 +1,8 @@
 <?php
-use Brajola\VTEX\VTEXClient;
+use Occtoplus\VTEX\Orders;
 
 require_once "vendor/autoload.php";
 
-$class = new VTEXClient();
+$class = new Orders();
 
-echo $class->echoPhrase("It's working");
+$data = $class->listOrders();
