@@ -1,0 +1,22 @@
+{
+    "name": "rodriguez/vtex",
+    "description": "API Library for VTEX Services",
+    "type": "library",
+    "require": {
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Fábio Rodriguez",
+            "email": "brajola@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Brajola\\VTEX\\": "src"
+        }
+    }
+}
